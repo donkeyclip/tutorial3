@@ -13,6 +13,7 @@ export const circle = new AT.Circle(
 		stopOnLast: false,
 		delayEnd: 0,
 		width: 400,
+		fontFamily: "Oswald"
 	},
 	{
 		selector: "#intro",
