@@ -4,6 +4,10 @@
   height: 100%;
   background: white;
   --column-width: 260px;
+  --colorA: {{ initParams.colorA }};
+  --colorB: {{ initParams.colorB }};
+  --colorC: {{ initParams.colorC }};
+  --colorD: {{ initParams.colorD }};
 }
 
 #intro {
@@ -37,18 +41,18 @@
 
 #item1 {
   z-index: 3;
-  background: white;
-  color: black;
+  background: var(--colorC);
+  color: var(--colorA);
 }
 
 #item2 {
   z-index: 2;
-  background: red;
-  color: #d0ff00;
+  background: var(--colorD);
+  color: var(--colorB);
 }
 
 #item3 {
   z-index: 1;
-  background: black;
-  color: white;
+  background: var(--colorA);
+  color: var(--colorC);
 }

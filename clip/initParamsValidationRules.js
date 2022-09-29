@@ -1,15 +1,26 @@
 export default {
-  color: {
-    label: "Text Color",
+  colorA: {
+    label: "First Color",
+    type: "color",
+    optional: true,
+    default: "black",
+  },
+  colorB: {
+    label: "Second Color",
+    type: "color",
+    optional: true,
+    default: "#d0ff00",
+  },
+  colorC: {
+    label: "Third Color",
     type: "color",
     optional: true,
     default: "white",
   },
-  fontSize: {
-    label: "Font size",
-    type: "measurement",
-    units: ["px"],
+  colorD: {
+    label: "Fourth Color",
+    type: "color",
     optional: true,
-    default: "12px",
-  },
+    default: "red",
+  }
 };

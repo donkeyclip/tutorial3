@@ -1,23 +1,20 @@
 export default [
   {
-    name: "Blue medium",
+    name: "Default",
     value: {
-      color: "blue",
-      fontSize: "30px",
+      colorA: "black",
+      colorB: "#d0ff00",
+      colorC: "white",
+      colorD: "red"
     },
   },
   {
-    name: "Red big",
+    name: "Secondary",
     value: {
-      color: "red",
-      fontSize: "60px",
+      colorA: "red",
+      colorB: "black",
+      colorC: "white",
+      colorD: "#d0ff00"
     },
-  },
-  {
-    name: "Green small",
-    value: {
-      color: "red",
-      fontSize: "10px",
-    },
-  },
+  }
 ];
