@@ -6,6 +6,14 @@
   --column-width: 260px;
 }
 
+#intro {
+  position: absolute;
+  top: 0;
+  left: 190px;
+  width: 400px;
+  height: 100%;
+}
+
 .title {
   text-align: center;
   font-size: 34px;

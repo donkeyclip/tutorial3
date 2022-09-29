@@ -23,6 +23,9 @@
     "donkeyclip",
     "motorcortex-clip"
   ],
+  "dependencies": {
+    "@donkeyclip/motorcortex-animetitles": "^1.2.1"
+  },
   "devDependencies": {
     "@babel/core": "7.19.1",
     "@babel/eslint-parser": "7.19.1",
